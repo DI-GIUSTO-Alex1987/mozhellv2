@@ -58,12 +58,21 @@ body{
     z-index: 9999;
 }
 
+
+.perso-block{
+    width: ;
+}
+
+
+
 .story-block{
-    padding-left: 10% !important;
     padding-top: 10% !important;
-    padding-bottom: 10% !important;
+    padding-bottom: 15% !important;
+    padding-left: 10%;
 
 }
+
+
 
 .story-title{
     font-family: 'Arvo', sans-serif;
@@ -72,7 +81,72 @@ body{
 
 p{
     font-family: 'Lato', sans-serif;
+    margin-bottom: 15px !important;
 }
+
+.pos_form{
+    text-align: center;
+}
+
+.form_text {
+    font-family: 'Arvo', sans-serif;
+    color: #F1F7FE !important;
+}
+
+select {
+    background-color: #f1f7fea1 !important;
+    border-color: #da3c1b !important;
+    border-style: double !important;
+}
+
+input[type="email"] {
+    background-color: #f1f7fea1 !important;
+    border-color: #da3c1b !important;
+    border-style: double !important;
+    width: 75%;
+}
+
+input[type="text"] {
+    background-color: #f1f7fea1 !important;
+    border-color: #da3c1b !important;
+    border-style: double !important;
+    width: 75%;
+    
+}
+
+textarea {
+    background-color: #f1f7fea1 !important;
+    border-color: #da3c1b !important;
+    border-style: double !important;
+    height: 25vh !important;
+    width: -webkit-fill-available;
+}
+
+input[type=submit]{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: #f03f1d;
+    border-style: solid;
+    background-color: rgba(245, 245, 245, 0);
+}
+
+
+input[type=submit]:hover{
+    background: #f0401d85 !important;
+}
+
+
+.btn_submit{
+    padding-left: 10%;
+
+}
+
 
 
 

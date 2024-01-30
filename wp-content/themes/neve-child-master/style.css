@@ -24,8 +24,6 @@ nav{
 }
 
 
-
-
 body{
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -36,9 +34,6 @@ body{
     background-image: url(http://localhost:8888/mozhellv2/wp-content/uploads/2024/01/background-1.png);
 
 }
-
-
-
 
 
 .compteur{
@@ -59,11 +54,6 @@ body{
 }
 
 
-.perso-block{
-    width: ;
-}
-
-
 
 .story-block{
     padding-top: 10% !important;
@@ -71,7 +61,6 @@ body{
     padding-left: 10%;
 
 }
-
 
 
 .story-title{
@@ -134,11 +123,12 @@ input[type=submit]{
     border-color: #f03f1d;
     border-style: solid;
     background-color: rgba(245, 245, 245, 0);
+    font-family: 'Arvo';
 }
 
 
 input[type=submit]:hover{
-    background: #f0401d85 !important;
+    background: #ff00007d !important;
 }
 
 
@@ -146,7 +136,6 @@ input[type=submit]:hover{
     padding-left: 10%;
 
 }
-
 
 
 
